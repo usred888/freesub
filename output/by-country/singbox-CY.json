@@ -6,20 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇾 CY 01 - xiaohe",
-        "🇨🇾 CY 02 - xiaohe",
-        "🇨🇾 CY 03 - xiaohe",
-        "🇨🇾 CY 04 - xiaohe"
+        "🇨🇾 CY 01 - Tree",
+        "🇨🇾 CY 02 - Tree",
+        "🇨🇾 CY 03 - Tree",
+        "🇨🇾 CY 04 - Tree",
+        "🇨🇾 CY 05 - Tree"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇾 CY 01 - xiaohe",
-        "🇨🇾 CY 02 - xiaohe",
-        "🇨🇾 CY 03 - xiaohe",
-        "🇨🇾 CY 04 - xiaohe"
+        "🇨🇾 CY 01 - Tree",
+        "🇨🇾 CY 02 - Tree",
+        "🇨🇾 CY 03 - Tree",
+        "🇨🇾 CY 04 - Tree",
+        "🇨🇾 CY 05 - Tree"
       ],
       "url": "https://www.google.com/generate_204"
     },

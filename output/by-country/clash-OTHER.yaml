@@ -4,370 +4,20 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🌐 其他地区 (Other) 01 - xiaohe
+- name: 🌐 其他地区 (Other) 01 - Tree
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 02 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 2086
-  uuid: 7a629a11-b75a-4889-957d-dc0987a73a19
+  server: 172.64.150.43
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoieVMzbmVFWlBsd3prIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed
-    headers:
-      Host: jimifree.jimshofree1.workers.dev
-- name: 🌐 其他地区 (Other) 03 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---TOOTFARANGI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 04 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 05 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: levikoconfig.levikogjgfdd.ir
-  network: ws
-  ws-opts:
     path: /
     headers:
-      Host: levikoconfig.levikogjgfdd.ir
-- name: 🌐 其他地区 (Other) 06 - xiaohe
-  type: vless
-  server: cf.3666888.xyz
-  port: 443
-  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 20664.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: 20664.pages.dev
-- name: 🌐 其他地区 (Other) 07 - xiaohe
-  type: vless
-  server: 172.67.68.157
-  port: 443
-  uuid: ed0e05af-49ab-4ea8-a39c-634855811b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wild-grass-1917.tmpduardoolfsonerluke15.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wild-grass-1917.tmpduardoolfsonerluke15.workers.dev
-- name: 🌐 其他地区 (Other) 08 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: levikoconfig.levikogjgfdd.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: levikoconfig.levikogjgfdd.ir
-- name: 🌐 其他地区 (Other) 09 - xiaohe
-  type: vless
-  server: 104.16.10.104
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 10 - xiaohe
-  type: vless
-  server: 172.66.149.243
-  port: 8443
-  uuid: ededaf7e-ad86-40bc-b837-b1403c56f311
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bazyepc.aminrazavi1384.workers.dev
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoid2tkV0g2R3kxYlNTIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
-    headers:
-      Host: bazyepc.aminrazavi1384.workers.dev
-- name: 🌐 其他地区 (Other) 11 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 12 - xiaohe
-  type: vless
-  server: 172.67.160.192
-  port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nuclear.us.kg
-  network: ws
-  ws-opts:
-    path: /free/1.226.227.169:50001
-    headers:
-      Host: nuclear.us.kg
-- name: 🌐 其他地区 (Other) 13 - xiaohe
-  type: vless
-  server: 104.17.154.214
-  port: 443
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: x.m-90.xyz
-  network: ws
-  ws-opts:
-    path: t.me/TEAMNETGRATISCOL
-    headers:
-      Host: x.m-90.xyz
-- name: 🌐 其他地区 (Other) 14 - xiaohe
-  type: vless
-  server: 104.26.13.54
-  port: 443
-  uuid: ed0e05af-49ab-4ea8-a39c-634855811b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wild-grass-1917.tmpduardoolfsonerluke15.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wild-grass-1917.tmpduardoolfsonerluke15.workers.dev
-- name: 🌐 其他地区 (Other) 15 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---mehrosaboran
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 16 - xiaohe
-  type: vless
-  server: 172.67.206.231
-  port: 443
-  uuid: 58e78cf6-2b50-40fb-b6bf-ec7eae5b5000
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hi.n2foriran.workers.dev
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: hi.n2foriran.workers.dev
-- name: 🌐 其他地区 (Other) 17 - xiaohe
-  type: vless
-  server: 104.16.10.135
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws#/?----?ed=512
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🌐 其他地区 (Other) 18 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 2096
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: levikoconfig.levikogjgfdd.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: levikoconfig.levikogjgfdd.ir
-- name: 🌐 其他地区 (Other) 19 - xiaohe
-  type: vless
-  server: 172.67.219.21
-  port: 443
-  uuid: 49c0ae46-767c-47d1-9703-8740e0c4b15a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: flat-night-edd0.hosein9saleazhuongooyeh87.workers.dev
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiZU1pQlVqNTBYVmpTeDlCIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
-    headers:
-      Host: flat-night-edd0.hosein9saleazhuongooyeh87.workers.dev
-- name: 🌐 其他地区 (Other) 20 - xiaohe
-  type: vless
-  server: 104.21.14.232
-  port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nuclear.us.kg
-  network: ws
-  ws-opts:
-    path: /free/1.226.227.169:50001
-    headers:
-      Host: nuclear.us.kg
-- name: 🌐 其他地区 (Other) 21 - xiaohe
-  type: vless
-  server: 104.16.10.104
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 22 - xiaohe
-  type: vless
-  server: 172.67.160.192
-  port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nuclear.us.kg
-  network: ws
-  ws-opts:
-    path: /free/103.101.153.32:443
-    headers:
-      Host: nuclear.us.kg
-- name: 🌐 其他地区 (Other) 23 - xiaohe
-  type: vless
-  server: 104.21.22.200
-  port: 443
-  uuid: 58e78cf6-2b50-40fb-b6bf-ec7eae5b5000
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hi.n2foriran.workers.dev
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: hi.n2foriran.workers.dev
-- name: 🌐 其他地区 (Other) 24 - xiaohe
-  type: vless
-  server: 172.64.229.14
-  port: 443
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: x.m-90.xyz
-  network: ws
-  ws-opts:
-    path: /t.me/TEAMNETGRATISCOL
-    headers:
-      Host: x.m-90.xyz
-- name: 🌐 其他地区 (Other) 25 - xiaohe
-  type: vless
-  server: 104.24.68.193
-  port: 443
-  uuid: ed0e05af-49ab-4ea8-a39c-634855811b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wild-grass-1917.tmpduardoolfsonerluke15.workers.dev
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: wild-grass-1917.tmpduardoolfsonerluke15.workers.dev
-- name: 🌐 其他地区 (Other) 26 - xiaohe
-  type: vless
-  server: 172.67.137.74
-  port: 2053
-  uuid: 774d0ea8-0e45-4078-ab22-14e4f5fff10f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: broad-HIlL-c0ae.anz-rAHII23.wORkers.dev
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiaWtrbUhXQmMwN0xFOVUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
-    headers:
-      Host: broad-hill-c0ae.anz-rahii23.workers.dev
-- name: 🌐 其他地区 (Other) 27 - xiaohe
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 02 - Tree
   type: vless
   server: 172.64.150.28
   port: 2082
@@ -380,49 +30,34 @@ proxies:
     path: /fp
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 28 - xiaohe
+- name: 🌐 其他地区 (Other) 03 - Tree
   type: vless
-  server: 172.67.195.79
-  port: 2053
-  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  server: www.baipiao.eu.org
+  port: 8880
+  uuid: 70c16ec7-13f7-473b-b97d-06399f1481e3
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: uwu.blueknightnet.qzz.io
-  network: ws
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-- name: 🌐 其他地区 (Other) 29 - xiaohe
-  type: vless
-  server: 104.21.5.128
-  port: 2053
-  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: uwu.blueknightnet.qzz.io
-  network: ws
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-- name: 🌐 其他地区 (Other) 30 - xiaohe
-  type: vless
-  server: 172.64.147.154
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
-- name: 🌐 其他地区 (Other) 31 - xiaohe
+      Host: mute-surf-0003.209.workers.dev
+- name: 🌐 其他地区 (Other) 04 - Tree
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 05 - Tree
   type: vless
   server: 172.64.150.43
   port: 8080
@@ -435,20 +70,7 @@ proxies:
     path: /sg-melbi
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 32 - xiaohe
-  type: vless
-  server: 172.66.214.247
-  port: 8880
-  uuid: e7f6f783-6754-4228-a5d0-aeed84b9949a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: sweet-sun-c70f.317-ba5.workers.dev
-- name: 🌐 其他地区 (Other) 33 - xiaohe
+- name: 🌐 其他地区 (Other) 06 - Tree
   type: vless
   server: 104.21.67.122
   port: 443
@@ -462,21 +84,35 @@ proxies:
     path: /Novan-AE27
     headers:
       Host: novantunnel.tech
-- name: 🌐 其他地区 (Other) 34 - xiaohe
+- name: 🌐 其他地区 (Other) 07 - Tree
   type: vless
-  server: 172.64.149.65
+  server: 172.67.160.192
   port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+  servername: nuclear.us.kg
   network: ws
   ws-opts:
-    path: /
+    path: /free/1.226.227.169:50001
     headers:
-      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
-- name: 🌐 其他地区 (Other) 35 - xiaohe
+      Host: nuclear.us.kg
+- name: 🌐 其他地区 (Other) 08 - Tree
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 09 - Tree
   type: vless
   server: 172.67.221.230
   port: 443
@@ -490,7 +126,175 @@ proxies:
     path: /Novan-AE27
     headers:
       Host: novantunnel.tech
-- name: 🌐 其他地区 (Other) 36 - xiaohe
+- name: 🌐 其他地区 (Other) 10 - Tree
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 11 - Tree
+  type: vless
+  server: 172.67.181.232
+  port: 2053
+  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+- name: 🌐 其他地区 (Other) 12 - Tree
+  type: vless
+  server: 104.21.84.167
+  port: 2053
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+- name: 🌐 其他地区 (Other) 13 - Tree
+  type: vless
+  server: 172.64.147.154
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+- name: 🌐 其他地区 (Other) 14 - Tree
+  type: vless
+  server: 104.21.22.200
+  port: 443
+  uuid: 58e78cf6-2b50-40fb-b6bf-ec7eae5b5000
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hi.n2foriran.workers.dev
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: hi.n2foriran.workers.dev
+- name: 🌐 其他地区 (Other) 15 - Tree
+  type: vless
+  server: 8.35.211.236
+  port: 443
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: kkkk-bq7.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kkkk-bq7.pages.dev
+- name: 🌐 其他地区 (Other) 16 - Tree
+  type: vless
+  server: 172.67.206.231
+  port: 443
+  uuid: 58e78cf6-2b50-40fb-b6bf-ec7eae5b5000
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hi.n2foriran.workers.dev
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: hi.n2foriran.workers.dev
+- name: 🌐 其他地区 (Other) 17 - Tree
+  type: vless
+  server: 172.67.137.74
+  port: 2053
+  uuid: 774d0ea8-0e45-4078-ab22-14e4f5fff10f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: broad-HIlL-c0ae.anz-rAHII23.wORkers.dev
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiaWtrbUhXQmMwN0xFOVUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
+    headers:
+      Host: broad-hill-c0ae.anz-rahii23.workers.dev
+- name: 🌐 其他地区 (Other) 18 - Tree
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 19 - Tree
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 20 - Tree
+  type: vless
+  server: 172.67.185.98
+  port: 2053
+  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fr.api-music-fa.com
+  network: ws
+  ws-opts:
+    path: /api/voip/updates/static/fr2035
+    headers:
+      Host: fr.api-music-fa.com
+- name: 🌐 其他地区 (Other) 21 - Tree
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---TOOTFARANGI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 22 - Tree
   type: vless
   server: 172.67.174.157
   port: 2083
@@ -504,103 +308,186 @@ proxies:
     path: /vl/oCCSZfAWhGqcVO3WOEnIPj9Z9ke?ed
     headers:
       Host: 27l432tlhnpcojr6u0d3.adfasdfadfasdf.workers.dev
-- name: 🌐 其他地区 (Other) 37 - xiaohe
+- name: 🌐 其他地区 (Other) 23 - Tree
   type: vless
-  server: 172.67.137.154
+  server: 172.64.149.65
   port: 443
-  uuid: 49d598ee-4dfc-4001-95ca-99a5b6002e3c
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev
+  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+- name: 🌐 其他地区 (Other) 24 - Tree
+  type: vless
+  server: 104.17.189.78
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
   network: ws
   ws-opts:
     path: /ws
     headers:
-      Host: tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 25 - Tree
+  type: vless
+  server: 172.67.160.192
+  port: 443
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/103.101.153.32:443
+    headers:
+      Host: nuclear.us.kg
+- name: 🌐 其他地区 (Other) 26 - Tree
+  type: vless
+  server: 104.17.154.214
+  port: 443
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: x.m-90.xyz
+  network: ws
+  ws-opts:
+    path: t.me/TEAMNETGRATISCOL
+    headers:
+      Host: x.m-90.xyz
+- name: 🌐 其他地区 (Other) 27 - Tree
+  type: vless
+  server: 172.64.150.43
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 28 - Tree
+  type: vless
+  server: 104.21.14.232
+  port: 443
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/1.226.227.169:50001
+    headers:
+      Host: nuclear.us.kg
+- name: 🌐 其他地区 (Other) 29 - Tree
+  type: vless
+  server: 172.67.133.118
+  port: 2053
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+- name: 🌐 其他地区 (Other) 30 - Tree
+  type: vless
+  server: 104.18.81.30
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🌐 其他地区 (Other) 01 - xiaohe
-  - 🌐 其他地区 (Other) 02 - xiaohe
-  - 🌐 其他地区 (Other) 03 - xiaohe
-  - 🌐 其他地区 (Other) 04 - xiaohe
-  - 🌐 其他地区 (Other) 05 - xiaohe
-  - 🌐 其他地区 (Other) 06 - xiaohe
-  - 🌐 其他地区 (Other) 07 - xiaohe
-  - 🌐 其他地区 (Other) 08 - xiaohe
-  - 🌐 其他地区 (Other) 09 - xiaohe
-  - 🌐 其他地区 (Other) 10 - xiaohe
-  - 🌐 其他地区 (Other) 11 - xiaohe
-  - 🌐 其他地区 (Other) 12 - xiaohe
-  - 🌐 其他地区 (Other) 13 - xiaohe
-  - 🌐 其他地区 (Other) 14 - xiaohe
-  - 🌐 其他地区 (Other) 15 - xiaohe
-  - 🌐 其他地区 (Other) 16 - xiaohe
-  - 🌐 其他地区 (Other) 17 - xiaohe
-  - 🌐 其他地区 (Other) 18 - xiaohe
-  - 🌐 其他地区 (Other) 19 - xiaohe
-  - 🌐 其他地区 (Other) 20 - xiaohe
-  - 🌐 其他地区 (Other) 21 - xiaohe
-  - 🌐 其他地区 (Other) 22 - xiaohe
-  - 🌐 其他地区 (Other) 23 - xiaohe
-  - 🌐 其他地区 (Other) 24 - xiaohe
-  - 🌐 其他地区 (Other) 25 - xiaohe
-  - 🌐 其他地区 (Other) 26 - xiaohe
-  - 🌐 其他地区 (Other) 27 - xiaohe
-  - 🌐 其他地区 (Other) 28 - xiaohe
-  - 🌐 其他地区 (Other) 29 - xiaohe
-  - 🌐 其他地区 (Other) 30 - xiaohe
-  - 🌐 其他地区 (Other) 31 - xiaohe
-  - 🌐 其他地区 (Other) 32 - xiaohe
-  - 🌐 其他地区 (Other) 33 - xiaohe
-  - 🌐 其他地区 (Other) 34 - xiaohe
-  - 🌐 其他地区 (Other) 35 - xiaohe
-  - 🌐 其他地区 (Other) 36 - xiaohe
-  - 🌐 其他地区 (Other) 37 - xiaohe
+  - 🌐 其他地区 (Other) 01 - Tree
+  - 🌐 其他地区 (Other) 02 - Tree
+  - 🌐 其他地区 (Other) 03 - Tree
+  - 🌐 其他地区 (Other) 04 - Tree
+  - 🌐 其他地区 (Other) 05 - Tree
+  - 🌐 其他地区 (Other) 06 - Tree
+  - 🌐 其他地区 (Other) 07 - Tree
+  - 🌐 其他地区 (Other) 08 - Tree
+  - 🌐 其他地区 (Other) 09 - Tree
+  - 🌐 其他地区 (Other) 10 - Tree
+  - 🌐 其他地区 (Other) 11 - Tree
+  - 🌐 其他地区 (Other) 12 - Tree
+  - 🌐 其他地区 (Other) 13 - Tree
+  - 🌐 其他地区 (Other) 14 - Tree
+  - 🌐 其他地区 (Other) 15 - Tree
+  - 🌐 其他地区 (Other) 16 - Tree
+  - 🌐 其他地区 (Other) 17 - Tree
+  - 🌐 其他地区 (Other) 18 - Tree
+  - 🌐 其他地区 (Other) 19 - Tree
+  - 🌐 其他地区 (Other) 20 - Tree
+  - 🌐 其他地区 (Other) 21 - Tree
+  - 🌐 其他地区 (Other) 22 - Tree
+  - 🌐 其他地区 (Other) 23 - Tree
+  - 🌐 其他地区 (Other) 24 - Tree
+  - 🌐 其他地区 (Other) 25 - Tree
+  - 🌐 其他地区 (Other) 26 - Tree
+  - 🌐 其他地区 (Other) 27 - Tree
+  - 🌐 其他地区 (Other) 28 - Tree
+  - 🌐 其他地区 (Other) 29 - Tree
+  - 🌐 其他地区 (Other) 30 - Tree
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🌐 其他地区 (Other) 01 - xiaohe
-  - 🌐 其他地区 (Other) 02 - xiaohe
-  - 🌐 其他地区 (Other) 03 - xiaohe
-  - 🌐 其他地区 (Other) 04 - xiaohe
-  - 🌐 其他地区 (Other) 05 - xiaohe
-  - 🌐 其他地区 (Other) 06 - xiaohe
-  - 🌐 其他地区 (Other) 07 - xiaohe
-  - 🌐 其他地区 (Other) 08 - xiaohe
-  - 🌐 其他地区 (Other) 09 - xiaohe
-  - 🌐 其他地区 (Other) 10 - xiaohe
-  - 🌐 其他地区 (Other) 11 - xiaohe
-  - 🌐 其他地区 (Other) 12 - xiaohe
-  - 🌐 其他地区 (Other) 13 - xiaohe
-  - 🌐 其他地区 (Other) 14 - xiaohe
-  - 🌐 其他地区 (Other) 15 - xiaohe
-  - 🌐 其他地区 (Other) 16 - xiaohe
-  - 🌐 其他地区 (Other) 17 - xiaohe
-  - 🌐 其他地区 (Other) 18 - xiaohe
-  - 🌐 其他地区 (Other) 19 - xiaohe
-  - 🌐 其他地区 (Other) 20 - xiaohe
-  - 🌐 其他地区 (Other) 21 - xiaohe
-  - 🌐 其他地区 (Other) 22 - xiaohe
-  - 🌐 其他地区 (Other) 23 - xiaohe
-  - 🌐 其他地区 (Other) 24 - xiaohe
-  - 🌐 其他地区 (Other) 25 - xiaohe
-  - 🌐 其他地区 (Other) 26 - xiaohe
-  - 🌐 其他地区 (Other) 27 - xiaohe
-  - 🌐 其他地区 (Other) 28 - xiaohe
-  - 🌐 其他地区 (Other) 29 - xiaohe
-  - 🌐 其他地区 (Other) 30 - xiaohe
-  - 🌐 其他地区 (Other) 31 - xiaohe
-  - 🌐 其他地区 (Other) 32 - xiaohe
-  - 🌐 其他地区 (Other) 33 - xiaohe
-  - 🌐 其他地区 (Other) 34 - xiaohe
-  - 🌐 其他地区 (Other) 35 - xiaohe
-  - 🌐 其他地区 (Other) 36 - xiaohe
-  - 🌐 其他地区 (Other) 37 - xiaohe
+  - 🌐 其他地区 (Other) 01 - Tree
+  - 🌐 其他地区 (Other) 02 - Tree
+  - 🌐 其他地区 (Other) 03 - Tree
+  - 🌐 其他地区 (Other) 04 - Tree
+  - 🌐 其他地区 (Other) 05 - Tree
+  - 🌐 其他地区 (Other) 06 - Tree
+  - 🌐 其他地区 (Other) 07 - Tree
+  - 🌐 其他地区 (Other) 08 - Tree
+  - 🌐 其他地区 (Other) 09 - Tree
+  - 🌐 其他地区 (Other) 10 - Tree
+  - 🌐 其他地区 (Other) 11 - Tree
+  - 🌐 其他地区 (Other) 12 - Tree
+  - 🌐 其他地区 (Other) 13 - Tree
+  - 🌐 其他地区 (Other) 14 - Tree
+  - 🌐 其他地区 (Other) 15 - Tree
+  - 🌐 其他地区 (Other) 16 - Tree
+  - 🌐 其他地区 (Other) 17 - Tree
+  - 🌐 其他地区 (Other) 18 - Tree
+  - 🌐 其他地区 (Other) 19 - Tree
+  - 🌐 其他地区 (Other) 20 - Tree
+  - 🌐 其他地区 (Other) 21 - Tree
+  - 🌐 其他地区 (Other) 22 - Tree
+  - 🌐 其他地区 (Other) 23 - Tree
+  - 🌐 其他地区 (Other) 24 - Tree
+  - 🌐 其他地区 (Other) 25 - Tree
+  - 🌐 其他地区 (Other) 26 - Tree
+  - 🌐 其他地区 (Other) 27 - Tree
+  - 🌐 其他地区 (Other) 28 - Tree
+  - 🌐 其他地区 (Other) 29 - Tree
+  - 🌐 其他地区 (Other) 30 - Tree
 rules:
 - MATCH,PROXIES

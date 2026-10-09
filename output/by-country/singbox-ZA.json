@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇿🇦 ZA 01 - xiaohe"
+        "🇿🇦 ZA 01 - Tree",
+        "🇿🇦 ZA 02 - Tree"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇿🇦 ZA 01 - xiaohe"
+        "🇿🇦 ZA 01 - Tree",
+        "🇿🇦 ZA 02 - Tree"
       ],
       "url": "https://www.google.com/generate_204"
     },

@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 FI 01 - xiaohe"
+        "🇫🇮 FI 01 - Tree",
+        "🇫🇮 FI 02 - Tree"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - xiaohe"
+        "🇫🇮 FI 01 - Tree",
+        "🇫🇮 FI 02 - Tree"
       ],
       "url": "https://www.google.com/generate_204"
     },

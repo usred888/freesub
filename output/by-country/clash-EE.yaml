@@ -4,21 +4,16 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇪🇪 EE 01 - xiaohe
+- name: 🇪🇪 EE 01 - Tree
   type: vless
-  server: 141.0.187.16
-  port: 2083
-  uuid: fba73f98-777a-42a6-83c0-7d1f6f070e8d
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: crt.dodopanel.biz
-  network: ws
-  ws-opts:
-    path: /vless-ws
-    headers:
-      Host: 141.0.187.16
-- name: 🇪🇪 EE 02 - xiaohe
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 02 - Tree
   type: vless
   server: 77.72.85.247
   port: 8443
@@ -32,35 +27,7 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: fdghyt.com
-- name: 🇪🇪 EE 03 - xiaohe
-  type: vless
-  server: 77.72.85.247
-  port: 8443
-  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fdghyt.com
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: fdghyt.com
-- name: 🇪🇪 EE 04 - xiaohe
-  type: vless
-  server: 77.72.85.247
-  port: 8443
-  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fdghyt.com
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: fdghyt.com
-- name: 🇪🇪 EE 05 - xiaohe
+- name: 🇪🇪 EE 03 - Tree
   type: vless
   server: 77.72.85.246
   port: 8443
@@ -74,7 +41,7 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: fdghyt.com
-- name: 🇪🇪 EE 06 - xiaohe
+- name: 🇪🇪 EE 04 - Tree
   type: vless
   server: 194.26.141.148
   port: 8443
@@ -88,7 +55,7 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: fdghyt.com
-- name: 🇪🇪 EE 07 - xiaohe
+- name: 🇪🇪 EE 05 - Tree
   type: vless
   server: 77.72.85.247
   port: 8443
@@ -102,7 +69,35 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: fdghyt.com
-- name: 🇪🇪 EE 08 - xiaohe
+- name: 🇪🇪 EE 06 - Tree
+  type: vless
+  server: 77.72.85.247
+  port: 8443
+  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fdghyt.com
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: fdghyt.com
+- name: 🇪🇪 EE 07 - Tree
+  type: vless
+  server: 141.0.187.16
+  port: 2083
+  uuid: fba73f98-777a-42a6-83c0-7d1f6f070e8d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: crt.dodopanel.biz
+  network: ws
+  ws-opts:
+    path: /vless-ws
+    headers:
+      Host: 141.0.187.16
+- name: 🇪🇪 EE 08 - Tree
   type: vless
   server: 77.72.85.246
   port: 8443
@@ -116,16 +111,7 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: fdghyt.com
-- name: 🇪🇪 EE 09 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 10 - xiaohe
+- name: 🇪🇪 EE 09 - Tree
   type: vless
   server: 77.72.85.246
   port: 8443
@@ -139,46 +125,49 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: fdghyt.com
-- name: 🇪🇪 EE 11 - xiaohe
+- name: 🇪🇪 EE 10 - Tree
   type: vless
-  server: 94.183.170.135
+  server: 77.72.85.247
   port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
+  servername: fdghyt.com
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: fdghyt.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇪🇪 EE 01 - xiaohe
-  - 🇪🇪 EE 02 - xiaohe
-  - 🇪🇪 EE 03 - xiaohe
-  - 🇪🇪 EE 04 - xiaohe
-  - 🇪🇪 EE 05 - xiaohe
-  - 🇪🇪 EE 06 - xiaohe
-  - 🇪🇪 EE 07 - xiaohe
-  - 🇪🇪 EE 08 - xiaohe
-  - 🇪🇪 EE 09 - xiaohe
-  - 🇪🇪 EE 10 - xiaohe
-  - 🇪🇪 EE 11 - xiaohe
+  - 🇪🇪 EE 01 - Tree
+  - 🇪🇪 EE 02 - Tree
+  - 🇪🇪 EE 03 - Tree
+  - 🇪🇪 EE 04 - Tree
+  - 🇪🇪 EE 05 - Tree
+  - 🇪🇪 EE 06 - Tree
+  - 🇪🇪 EE 07 - Tree
+  - 🇪🇪 EE 08 - Tree
+  - 🇪🇪 EE 09 - Tree
+  - 🇪🇪 EE 10 - Tree
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇪🇪 EE 01 - xiaohe
-  - 🇪🇪 EE 02 - xiaohe
-  - 🇪🇪 EE 03 - xiaohe
-  - 🇪🇪 EE 04 - xiaohe
-  - 🇪🇪 EE 05 - xiaohe
-  - 🇪🇪 EE 06 - xiaohe
-  - 🇪🇪 EE 07 - xiaohe
-  - 🇪🇪 EE 08 - xiaohe
-  - 🇪🇪 EE 09 - xiaohe
-  - 🇪🇪 EE 10 - xiaohe
-  - 🇪🇪 EE 11 - xiaohe
+  - 🇪🇪 EE 01 - Tree
+  - 🇪🇪 EE 02 - Tree
+  - 🇪🇪 EE 03 - Tree
+  - 🇪🇪 EE 04 - Tree
+  - 🇪🇪 EE 05 - Tree
+  - 🇪🇪 EE 06 - Tree
+  - 🇪🇪 EE 07 - Tree
+  - 🇪🇪 EE 08 - Tree
+  - 🇪🇪 EE 09 - Tree
+  - 🇪🇪 EE 10 - Tree
 rules:
 - MATCH,PROXIES

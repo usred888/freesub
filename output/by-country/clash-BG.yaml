@@ -4,7 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇬 BG 01 - xiaohe
+- name: 🇧🇬 BG 01 - Tree
   type: vless
   server: 31.40.204.131
   port: 443
@@ -18,7 +18,7 @@ proxies:
     path: /
     headers:
       Host: 0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev
-- name: 🇧🇬 BG 02 - xiaohe
+- name: 🇧🇬 BG 02 - Tree
   type: vless
   server: 31.40.204.131
   port: 443
@@ -37,14 +37,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇧🇬 BG 01 - xiaohe
-  - 🇧🇬 BG 02 - xiaohe
+  - 🇧🇬 BG 01 - Tree
+  - 🇧🇬 BG 02 - Tree
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇬 BG 01 - xiaohe
-  - 🇧🇬 BG 02 - xiaohe
+  - 🇧🇬 BG 01 - Tree
+  - 🇧🇬 BG 02 - Tree
 rules:
 - MATCH,PROXIES
